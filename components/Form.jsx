@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "./ui/Button";
+import { Button } from "./ui/buttonn";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
