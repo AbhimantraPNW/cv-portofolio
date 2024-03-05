@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 //components
 import Logo from "./Logo";
-import ThemeToggler from "./ThemeToggler";
+import ThemeToggler from "./Themes";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";

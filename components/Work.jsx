@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Button } from "./ui/buttonn";
+import { Button } from "./ui/button";
 
 //import swiper react components
 import { Swiper, SwiperSlide } from "swiper/react";
