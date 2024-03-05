@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import NextLink from "next/link";
+import Link from "next/link";
 
 const Cta = () => {
   return (
