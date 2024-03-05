@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 //components
 import Logo from "./Logo";
-import ThemeToggler from "./Themes";
+import themetoggler from "./themetoggler";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";
@@ -39,7 +39,7 @@ const Header = () => {
               linkStyles="relative hover:text-primary transition-all"
               underlineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
-            <ThemeToggler />
+            <themetoggler />
             {/* Mobile Nav */}
             <div className="xl:hidden">
               <MobileNav />
