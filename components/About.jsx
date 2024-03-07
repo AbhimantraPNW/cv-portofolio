@@ -141,7 +141,7 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">Little Things About Me</h3>
-                    <p className="subtitle max-w-xl max-auto xl:mx-0">
+                    <p className="subtitle max-w-xl mx-auto max-auto xl:mx-0">
                       Do you have funny story you could share with me?
                     </p>
                     {/* icons */}
