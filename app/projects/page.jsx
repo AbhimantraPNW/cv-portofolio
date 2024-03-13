@@ -32,7 +32,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/network-call.png",
+    image: "/work/nwc.PNG",
     category: "Tailwind",
     name: "Network Call Register App",
     description:
