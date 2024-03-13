@@ -43,6 +43,15 @@ const projectData = [
     link: "/",
     github: "/",
   },
+  {
+    image: "/work/network-call.PNG",
+    category: "Tailwind",
+    name: "Todo-List App",
+    description:
+      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+    link: "/",
+    github: "/",
+  },
 ];
 
 const Work = () => {
