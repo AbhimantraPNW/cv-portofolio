@@ -32,9 +32,9 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/network-call.PNG",
+    image: "/work/network-call.png",
     category: "Tailwind",
-    name: "Todo-List App",
+    name: "Network Call Register App",
     description:
       "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
     link: "/",
