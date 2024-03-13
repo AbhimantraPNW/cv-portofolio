@@ -21,7 +21,7 @@ const projectData = [
     category: "Javascript",
     name: "Leetcode",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "Doing Code Challenge, 14 Easy 3 Medium",
     link: "https://leetcode.com/Abhimantra_PNW/",
     github: "/",
   },
@@ -30,7 +30,7 @@ const projectData = [
     category: "React JS",
     name: "Web CV",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "Make Porto Website CV",
     link: "/",
     github: "/",
   },
@@ -39,7 +39,7 @@ const projectData = [
     category: "Tailwind",
     name: "Todo-List App",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "Make App To-Do List (Add Todos, Delete Todos, UpdateTodosDone)",
     link: "/",
     github: "/",
   },
@@ -48,7 +48,7 @@ const projectData = [
     category: "Tailwind",
     name: "Network Call Register App",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "Register App to Fetch Fake API (use redux for global state)",
     link: "/",
     github: "/",
   },
@@ -66,7 +66,7 @@ const Work = () => {
         >
           <h2 className="section-title mb-4 mx-auto">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz
+            My projects until the present
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>
