@@ -24,19 +24,19 @@ const hobbyData = [
     avatar: "/hobby/run.png",
     name: "Running",
     review:
-      "lorem lorem ipsum ipsum ipsum dolor sit amet constectur adisipicing elit",
+      "I embrace the joy of movement and the thrill of pushing my limits",
   },
   {
     avatar: "/hobby/cycling.png",
     name: "Cycling",
     review:
-      "lorem lorem ipsum ipsum ipsum dolor sit amet constectur adisipicing elit",
+      "Cycling is not just a hobby but a lifestyle. Experiencing the beauty of nature,",
   },
   {
     avatar: "/hobby/futsal-soccer.png",
     name: "Futsal Soccer",
     review:
-      "lorem lorem ipsum ipsum ipsum dolor sit amet constectur adisipicing elit",
+      "Experience the fast-paced action, skillful moves, and camaraderie of this dynamic sport.",
   },
 ];
 

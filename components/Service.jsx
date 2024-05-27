@@ -11,17 +11,17 @@ const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    description: "Attractive Layout and Design, User-Friendly Websites",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    description: "Frontend and Backend",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "App Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    description: "Responsive Design Web",
   },
 ];
 

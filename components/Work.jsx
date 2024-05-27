@@ -17,38 +17,38 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/Leetcode.PNG",
-    category: "Javascript",
-    name: "Leetcode",
-    description:
-      "Doing Code Challenge, 14 Easy 3 Medium",
-    link: "https://leetcode.com/Abhimantra_PNW/",
-    github: "/",
-  },
-  {
     image: "/work/web-cv.PNG",
-    category: "React JS",
+    category: "Javascript",
     name: "Web CV",
     description:
-      "Make Porto Website CV",
+      "This project is a visually captivating online portfolio that showcases my skills and experience in web development. It presents my professional journey in an engaging and memorable way",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/todo-list.PNG",
-    category: "Tailwind",
-    name: "Todo-List App",
+    image: "/work/company_profile.PNG",
+    category: "Typescript",
+    name: "Company Profile",
     description:
-      "Make App To-Do List (Add Todos, Delete Todos, UpdateTodosDone)",
+      "This project exemplifies my dedication as a web developer to blend traditional techniques with contemporary designs. Dive into company's story and user-friendly website experience.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/nwc.PNG",
-    category: "Tailwind",
-    name: "Network Call Register App",
+    image: "/work/blog.PNG",
+    category: "Typescript",
+    name: "Personal Blog",
     description:
-      "Register App to Fetch Fake API (use redux for global state)",
+      "Embark on a journey into the world of web development through my personal blog, where I share insights, experiences, and discoveries. Join me in exploring my blog",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/mini_project.PNG",
+    category: "Typescript",
+    name: "Website Event Ticketing",
+    description:
+      "This event ticketing website is a mini project showcasing my skills in web development. Designed to provide a seamless ticket purchasing experience and real-time event updates.",
     link: "/",
     github: "/",
   },
@@ -65,25 +65,32 @@ const Work = () => {
             xl:items-start"
         >
           <h2 className="section-title mb-4 mx-auto">Latest Projects</h2>
-          <p className="subtitle mb-8">
-            My projects until the present
-          </p>
+          <p className="subtitle mb-8">My projects until the present</p>
           <Link href="/projects">
             <Button>All Projects</Button>
           </Link>
         </div>
         {/* slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
-          <Swiper className="h-[480px]" slidesPerView={1} breakpoints={{
-            640: {
-                slidesPerView: 2
-            }
-          }} spaceBetween={30} modules={[Pagination]} pagination={{clickable: true}}>
+          <Swiper
+            className="h-[480px]"
+            slidesPerView={1}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+              },
+            }}
+            spaceBetween={30}
+            modules={[Pagination]}
+            pagination={{ clickable: true }}
+          >
             {/* show only first 4 projects for the slides */}
-            {projectData.slice(0,4).map((project, index) => {
-              return <SwiperSlide key={index}>
-                        <ProjectCard project={project} />
-                    </SwiperSlide>;
+            {projectData.slice(0, 4).map((project, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <ProjectCard project={project} />
+                </SwiperSlide>
+              );
             })}
           </Swiper>
         </div>

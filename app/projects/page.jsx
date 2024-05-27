@@ -5,38 +5,38 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/Leetcode.PNG",
-    category: "Javascript",
-    name: "Leetcode",
-    description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
-    link: "https://leetcode.com/Abhimantra_PNW/",
-    github: "/",
-  },
-  {
     image: "/work/web-cv.PNG",
-    category: "React JS",
+    category: "Javascript",
     name: "Web CV",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "This project is a visually captivating online portfolio that showcases my skills and experience in web development. It presents my professional journey in an engaging and memorable way",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/todo-list.PNG",
-    category: "Tailwind",
-    name: "Todo-List App",
+    image: "/work/company_profile.PNG",
+    category: "Typescript",
+    name: "Company Profile",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "This project exemplifies my dedication as a web developer to blend traditional techniques with contemporary designs. Dive into company's story and user-friendly website experience.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/nwc.PNG",
-    category: "Tailwind",
-    name: "Network Call Register App",
+    image: "/work/blog.PNG",
+    category: "Typescript",
+    name: "Personal Blog",
     description:
-      "Lorem ipsum dolar sit amet constectur adipiscing elit. Cumque, quiz",
+      "Embark on a journey into the world of web development through my personal blog, where I share insights, experiences, and discoveries. Join me in exploring my blog",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/mini_project.PNG",
+    category: "Typescript",
+    name: "Website Event Ticketing",
+    description:
+      "This event ticketing website is a mini project showcasing my skills in web development. Designed to provide a seamless ticket purchasing experience and real-time event updates.",
     link: "/",
     github: "/",
   },
